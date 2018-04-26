@@ -48,6 +48,11 @@ masthead img {
     
     
 }
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    padding-left: 20px;
+}
+
 h2 {
     font-family: 'Playfair Display SC', serif;
     padding-left: 20px;
