@@ -1,0 +1,141 @@
+body {
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+background-color: white;   /* color   #ffffff  */
+    text-align: center;
+}
+
+}
+.nav-bar {
+    background-color: white;   /* color   #ffffff  */
+}
+
+ul {
+    margin: auto 0 auto 0;
+    margin-top: 30px;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    background-color: grey;   /* color   #808080  */
+    margin-top: 10px;
+
+}
+
+li a {
+    color: white;  /* color   #ffffff  */
+   
+
+}
+
+.container img {
+    padding-top: 10px;
+}
+
+masthead {
+    width: 100%;
+    height: auto;
+    
+}
+
+masthead img {
+    
+    
+}
+h2 {
+    font-family: 'Playfair Display SC', serif;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        line-height: 0.75rem;
+    }
+    .logo {
+        text-align: center;
+    }
+    h2{
+        text-align: center
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        line-height: 1rem;
+       
+    }
+    .logo {
+        text-align: center;
+    }
+    #id {
+
+        padding-left: 50vh;
+    }
+
+    .container img {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        line-height: 1.5rem;
+
+    }
+    .container img {
+        padding-top: 10px;
+    }
+}
+
+
+.footer {
+    text-align: center;
+    height: 60px;
+    background-color: dimgrey; /* color  #696969  */
+}
+.footer p {
+    text-align: center;
+    margin-top: 15px;
+    color: white; /* color   #ffffff  */
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+   
+    color: white; /* color   #ffffff  */
+}
+
+/* Twitter */
+.fa-twitter {
+   
+    color: white; /* color   #ffffff  */
+}
+.fa-instagram {
+    color: white; /* color   #ffffff  */
+    
+}
+.fa-google {
+    color: white; /* color   #ffffff  */
+    
+}
